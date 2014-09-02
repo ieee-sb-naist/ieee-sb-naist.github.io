@@ -1,0 +1,124 @@
+/**********************************
+ top-level typesetting
+ **********************************/
+
+html{
+	background-color: white;
+	height: 100%;
+	font-family: mplus-2p-regular;
+}
+
+body{
+	/* page appearance */
+	min-height: 100%;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+
+	/* color */
+	background-color : #F3F3F3;
+	color: #303030;
+}
+
+body header.main{
+	margin: 0 auto;
+}
+
+body footer.main{
+	margin: 0 auto;
+	padding: 5px;
+	background-color: #303030;
+	color: #F3F3F3;
+}
+
+body article.page-content{
+	margin: 10px 8px;
+	background-color: #DDC;
+}
+
+body article.page-content header{
+	margin: 0 auto;
+	width: 100%;
+	color: #F3F3F3;
+	background-color: #501515;
+}
+
+/**********************************
+ second-level typesetting
+ **********************************/
+
+/* 見出し */
+
+h1{
+	margin: 0 auto;
+	font-family: mplus-2p-heavy;
+	padding: 0px 10px;
+}
+
+h1 span.highlight{
+	color: #888;
+}
+
+h2{
+	margin: 0 auto;
+	font-family: mplus-2p-heavy;
+	padding: 0px 10px;
+}
+
+/**********************************/
+/* ナビゲーション */
+
+nav.whole-website{
+	margin: 0 auto;
+	background-color: #EA4848;
+}
+
+nav.whole-website ul{
+	margin: 0 auto;
+	font-size: 0px;
+}
+
+nav.whole-website ul li{
+	display: inline-block;
+	
+	margin: 0 auto;
+	padding: 4px 5px;
+	border-left: 2px dotted #303030;
+
+	font-family: mplus-2p-black;
+	font-size: 20px;
+}
+
+nav.whole-website ul li.first{
+	border-left: 0px;
+}
+
+nav.whole-website ul li.here{
+	background-color: #FF8888;
+}
+
+/**********************************/
+/* 段落 */
+
+p{
+	margin: 0 auto;
+}
+
+article p{
+	padding: 5px 12px;
+}
+
+/**********************************
+ trivial typesetting
+ **********************************/
+
+strong{
+	font-family: mplus-2p-bold;
+}
+
+a:link { color: #101010; }
+a:visited { color: #303030; }
+a:hover { color: #FFF; }
+a:active { color: #FFF; }
