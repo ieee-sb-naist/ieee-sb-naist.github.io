@@ -5,7 +5,7 @@
 html{
 	background-color: white;
 	height: 100%;
-	font-family: mplus-2p-regular;
+	font-family: mplus-2c-regular;
 }
 
 body{
@@ -23,6 +23,7 @@ body{
 }
 
 body header.main{
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -34,15 +35,18 @@ body footer.main{
 }
 
 body article.page-content{
-	margin: 10px 8px;
+	margin: 12px 12px;
+	padding: 0px;
+	padding-bottom: 12px;
 	background-color: #DDC;
 }
 
 body article.page-content header{
-	margin: 0 auto;
 	width: 100%;
-	color: #F3F3F3;
-	background-color: #501515;
+	text-align: left;
+	margin: 12px 0px auto;
+	/*padding: 3px;*/
+	color: #303030;
 }
 
 /**********************************
@@ -52,8 +56,9 @@ body article.page-content header{
 /* 見出し */
 
 h1{
+	font-size: 38px;
 	margin: 0 auto;
-	font-family: mplus-2p-heavy;
+	font-family: mplus-2c-heavy;
 	padding: 0px 10px;
 }
 
@@ -62,8 +67,9 @@ h1 span.highlight{
 }
 
 h2{
-	margin: 0 auto;
-	font-family: mplus-2p-heavy;
+	margin: 2px;
+	font-size: 24px;
+	font-family: mplus-2c-heavy;
 	padding: 0px 10px;
 }
 
@@ -77,6 +83,7 @@ nav.whole-website{
 
 nav.whole-website ul{
 	margin: 0 auto;
+	padding: 0px;
 	font-size: 0px;
 }
 
@@ -87,7 +94,7 @@ nav.whole-website ul li{
 	padding: 4px 5px;
 	border-left: 2px dotted #303030;
 
-	font-family: mplus-2p-black;
+	font-family: mplus-2c-black;
 	font-size: 20px;
 }
 
@@ -107,7 +114,8 @@ p{
 }
 
 article p{
-	padding: 5px 12px;
+	padding: 1px 12px;
+	font-size: 16px;
 }
 
 /**********************************
@@ -115,7 +123,7 @@ article p{
  **********************************/
 
 strong{
-	font-family: mplus-2p-bold;
+	font-family: mplus-2c-bold;
 }
 
 a:link { color: #101010; }
