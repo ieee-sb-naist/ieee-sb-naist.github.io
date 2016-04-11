@@ -1,3 +1,4 @@
+
 /**********************************
  top-level typesetting
  **********************************/
@@ -5,7 +6,7 @@
 html{
 	background-color: white;
 	height: 100%;
-	font-family: mplus-2c-regular;
+	font-family: 'M+ C Type-2 (basic latin) Regular', 'M+ Type-2 (general-j) Regular', sans-serif;
 }
 
 body{
@@ -58,7 +59,7 @@ body article.page-content header{
 h1{
 	font-size: 38px;
 	margin: 0 auto;
-	font-family: mplus-2c-heavy;
+	font-family: 'M+ C Type-2 (basic latin) Heavy', 'M+ Type-2 (general-j) Heavy', sans-serif;
 	padding: 0px 10px;
 }
 
@@ -69,7 +70,7 @@ h1 span.highlight{
 h2{
 	margin: 2px;
 	font-size: 24px;
-	font-family: mplus-2c-heavy;
+	font-family: 'M+ C Type-2 (basic latin) Heavy', 'M+ Type-2 (general-j) Heavy', sans-serif;
 	padding: 0px 10px;
 }
 
@@ -94,7 +95,7 @@ nav.whole-website ul li{
 	padding: 4px 5px;
 	border-left: 2px dotted #303030;
 
-	font-family: mplus-2c-black;
+	font-family: 'M+ C Type-2 (basic latin) Black', 'M+ Type-2 (general-j) Black', sans-serif;
 	font-size: 20px;
 }
 
@@ -123,7 +124,7 @@ article p{
  **********************************/
 
 strong{
-	font-family: mplus-2c-bold;
+	font-family: 'M+ C Type-2 (basic latin) Bold', 'M+ Type-2 (general-j) Bold', sans-serif;
 }
 
 a:link { color: #101010; }
